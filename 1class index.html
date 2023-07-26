@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B8A3-fruit-brustroni</title>
+    <!-- fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<!-- daisyui link -->
 <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 
@@ -19,15 +24,66 @@
     }
   </script>
   <style>
-    
+header{
+    font-family: 'Open Sans', sans-serif;
+}
   </style>
 
 </head>
 <body>
-    <header>
+    <header >
+        <nav >
+           <div class="navbar bg-red-500 rounded-full mt-8 p-all">
+                <div class="navbar-start">
+                    <div class="">
+                        <!-- <label tabindex="0" class="btn btn-ghost btn-circle"> -->
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg> -->
+                          </label>
+                          <ul class="flex gap-5 text-white ml-7">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                             
+                          </ul>
+                   
+                  </div>
+                </div>
+                <div class="navbar-center">
+                    <img src="images/logo.png" alt="">
+                  <a class="btn btn-ghost normal-case text-xl text-white ">Fruit Burst</a>
+                 </div>
+                <div class="navbar-end">
+                  <button>
+                    <input type="text" placeholder="Search here" class="input input-bordered input-accent w-full h-8 max-w-xl rounded-full" />
+                
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg> -->
+                  </button>
+                  <button class="btn btn-ghost btn-circle">
+                    <div class="indicator">
+                      <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg> -->
+                      <!-- <span class="badge badge-xs badge-primary indicator-item"></span> -->
+                    </div>
+                  </button>
+                </div>
+              </div>
+        </nav>
 
     </header>
-    <main>
+    <main class="mt-8 r">
+        <section>
+            <div class="hero min-h-screen" style="background-image: url(images/banner1.png)">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-7xl font-bold">Exotic tastes at your 
+                        doorstep</h1>
+                    <p class="mb-5">We supply highly quality organic products</p>
+                    <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div>
+        </section>
 
     </main>
     <footer>
