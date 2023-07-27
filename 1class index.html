@@ -27,11 +27,19 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+@media screen and (mx-width:570px){
+.footer{
+  flex-direction: column;
+}
+.div{
+  flex-direction: column;
+}
+}
   </style>
 
 </head>
 <body>
-    <header >
+    <header>
         <nav >
            <div class="navbar bg-red-500 rounded-full mt-8 p-all">
                 <div class="navbar-start">
@@ -140,7 +148,7 @@ body{
                     </div>
 
                 </div>
-                <div class="mt-20 flex justify-center gap-10 ">
+                <div class=" div mt-20 flex justify-center gap-10 ">
                     <div class="card w-96 bg-base-100 shadow-xl">
                       <!-- images 1 -->
                       <figure><img src="/images/fruit6.png" alt="Shoes" /></figure>
@@ -319,7 +327,7 @@ body{
                
               </section>
             </main>
-    <footer>
+    <footer class="footer">
       <div>
         <footer class="footer footer-center p-10 bg-black text-primary-content mt-20 mb-20">
           <div>
